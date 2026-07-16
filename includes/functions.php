@@ -7,6 +7,10 @@ function site_name()
 {
     echo config('name');
 }
+
+function autor_mail() {
+    echo config('mail');
+}
 /*
  * Displays site url provided in config.
  */
@@ -52,7 +56,7 @@ function page_title()
 {
     $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Home';
 
-    echo ucwords(str_replace('_', ' ', $page));
+    echo ucwords(str_replace('-', ' ', $page));
 }
 
 /**
@@ -75,7 +79,7 @@ function page_content()
 function erreur404() {
     $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : '404';
 
-    echo ucwords(str_replace('_', ' ', $page));
+    echo ucwords(str_replace('-', ' ', $page));
 }
 
 /**

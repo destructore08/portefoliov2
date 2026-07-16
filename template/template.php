@@ -54,6 +54,7 @@
     <span class="btn">
         <a class="btn btn-primary" href="https://discord.com/">Join Discord <img style="width: 20px"; src="./images/discord.jpeg" alt="discordlogo"></a>
         <a class="btn btn-primary" href="https://www.youtube.com/">Join youtube <img style="width: 20px;" src="./images/ytb.png" alt="ytblogo"></a>
+        <?php autor_mail(); ?>
     </span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
